@@ -1,4 +1,4 @@
-module.exports = {
+export const maxim = {
    init: 0x00,
    xorOut: 0x00,
    refOut: true,
