@@ -1,3 +1,3 @@
-declare module 'easy-crc' {
-  export const crc8: (data: string | number[] | Buffer) => number;
+declare module 'crc8-maxim' {
+  export const crc8: (data: string) => string;
 }

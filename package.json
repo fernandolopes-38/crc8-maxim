@@ -1,18 +1,14 @@
 {
-  "name": "easy-crc",
-  "version": "0.0.2",
-  "description": "A pure JavaScript and zero dependencies CRC node module.",
-  "main": "index.ts",
+  "name": "@fuknando/crc8-maxim",
+  "version": "0.0.1",
+  "description": "A JavaScript CRC-8 MAXIM node module.",
+  "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fabio286/easy-crc.git"
-  },
-  "dependencies": {
-    "base-64": "^1.0.0",
-    "buffer": "^6.0.3"
+    "url": "git+https://github.com/fernandolopes-38/crc8-maxim"
   },
   "devDependencies": {
     "@types/node": "^16.6.1",
@@ -31,6 +27,6 @@
     "crc",
     "crc8"
   ],
-  "author": "Fabio Di Stasio",
+  "author": "Fernando Lopes",
   "license": "MIT"
 }
