@@ -16,7 +16,6 @@ yarn add @fuknando/crc8-maxim
 ```
 
 
-
 ## Usage
 
 ```js
@@ -26,7 +25,7 @@ import { crc8 } from '@fuknando/crc8-maxim';
 let data = 'AA5503005012';
 let checksum = crc8(data);
 
-console.log(checksum);// "0a"
+console.log(checksum);// "0A"
 ```
 
 ## Available algorithms
@@ -34,9 +33,3 @@ console.log(checksum);// "0a"
 ### CRC8
 
 - MAXIM
-
-## Running tests
-
-```bash
-npm test
-```
